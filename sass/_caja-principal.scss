@@ -1,0 +1,51 @@
+@import "variables";
+
+.container-principal{   
+    display: flex;
+    margin-top: 270px;
+    margin-bottom: 200px;
+    width: 80%;
+
+    a{
+
+        h3{
+            position: absolute;
+            top: 1701px;
+            color: $blanco;
+            font-size: 5rem;
+            width: 32.99vw;
+            height: 550px;
+            text-align: center;
+            align-items: center;
+            padding-top: 245px;
+            z-index: 20;
+        }
+
+        h3:hover{
+            opacity: 1;
+            
+        }
+
+
+        img{
+            position: relative;
+            width: 32.99vw;
+            height: 550px;
+            transition: filter .2s;
+            z-index: 90;
+        }
+
+        .img-anime:hover{
+            filter:opacity(0);
+        }
+
+        .img-pelicula:hover{
+            filter:opacity(0);
+        }
+        
+        .img-serie:hover{
+            filter:opacity(0);
+        }
+    }
+}
+

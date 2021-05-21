@@ -1,0 +1,25 @@
+@import "variables";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'KoHo', sans-serif;
+    background-color: $negro-clarito;
+    color: $blanco;
+    scroll-behavior: smooth;
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+    font-size: 2.5rem;
+}
+
+.fa-twitter-square:before {
+    content: "\f081";
+    font-size: 2.5rem;
+}

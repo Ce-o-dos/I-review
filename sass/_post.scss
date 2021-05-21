@@ -1,0 +1,43 @@
+@import "variables";
+
+.new-post{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color: $blanco;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    div{
+        cursor: pointer;
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid $blanco;
+        border-radius: 5px;
+        padding: 5px 25px;
+        font-family: $fuente2;
+        transition: all .05s;
+
+        
+
+        h6{
+            font-size: 3rem;
+            font-weight:lighter;
+            text-align: center;
+            display: inline-block;
+        }
+    
+    }
+
+    div:hover{
+        color: $negro;
+        border: 1px solid $negro;
+    }
+    
+}
