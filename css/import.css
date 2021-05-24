@@ -29,8 +29,7 @@ header {
     justify-content: flex-end; }
   header .container-nav {
     display: flex;
-    justify-content: center;
-    margin-right: 70px; }
+    justify-content: center; }
     header .container-nav a:link, header .container-nav a:visited, header .container-nav a:active {
       text-decoration: none;
       color: #ffffff; }
@@ -49,20 +48,10 @@ header {
       transition: color .2s; }
     header .container-nav li:hover {
       color: #504c5a; }
-  header .logo-pequeno {
-    position: absolute;
-    width: 100px;
-    right: 0;
-    top: 0; }
 
 main {
   margin-top: 40px;
   height: 870px; }
-
-.logo {
-  position: absolute;
-  margin-left: 50px;
-  margin-top: 550px; }
 
 .slider {
   width: 88%;
