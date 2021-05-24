@@ -12,9 +12,14 @@ header{
         justify-content:flex-end;
     }
 
+    
+
     .container-nav{
         display: flex;
         justify-content: center;
+        margin-right: 70px;
+
+        
 
         a:link, a:visited, a:active {
             text-decoration:none;
@@ -34,10 +39,21 @@ header{
             justify-content: center;
             align-items: center;
             transition: color .2s;
+
+            
         }
 
         li:hover{
             color: $negro-mclarito;
+
+          
         }
     }
+
+    .logo-pequeno{
+        position: absolute;
+        width: 100px;
+        right: 0;
+        top: 0;
+    }  
 }
